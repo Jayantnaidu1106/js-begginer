@@ -1,2 +1,2 @@
-# js-begginer
+# WEB DEV - BEGINNER 
 learning just started
