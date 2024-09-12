@@ -1,18 +1,20 @@
-body{
+body {
     background-color: rgb(38, 229, 146);
 }
+
 .container {
-    height:40vw;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-h1{
-   position: relative;
-   left:40vw;
-   top: 50px;
-font-size: 56px;
+
+h1 {
+    position: relative;
+    left: 40vw;
+    top: 50px;
+    font-size: 56px;
 }
 
 .calculator {
@@ -39,6 +41,10 @@ font-size: 56px;
     padding: 5px;
 }
 
+.btn:hover {
+    background-color: #3a3939;
+    cursor: pointer;
+}
 
 .display {
     height: 12vw;
@@ -50,26 +56,34 @@ font-size: 56px;
     text-align: end;
     color: white;
 }
-.line{
+
+.line {
     width: 17vw;
     height: 2px;
     margin: 10px;
     background-color: gray;
 }
+
 .button {
     display: flex;
     gap: 8px;
 }
 
-    
-.btnl{
+
+.btnl {
     color: green;
     font-size: 24px
 }
-.equal{
+
+.equal:hover {
+    background-color: #58864f;
+}
+
+.equal {
     background-color: green;
 }
-.c{
-    
+
+.c {
+
     color: red;
 }
